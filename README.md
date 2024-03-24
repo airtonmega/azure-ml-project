@@ -37,3 +37,26 @@ Para garantir que tudo estava funcionando conforme o esperado, fiz algumas chama
 
 
 No processo de criação e implantação do meu modelo de previsão de dados no Azure Machine Learning, eu configurei e publiquei um ponto de extremidade (endpoint) para o serviço web do meu modelo. O ponto de extremidade que mencionei e configurei é https://estudoml-kvkif.centralus.inference.ml.azure.com/score.
+
+
+Json:
+{
+  "input_data": {
+    "columns": [
+      "day",
+      "mnth",
+      "year",
+      "season",
+      "holiday",
+      "weekday",
+      "workingday",
+      "weathersit",
+      "temp",
+      "atemp",
+      "hum",
+      "windspeed"
+    ],
+    "index": [],
+    "data": []
+  }
+}
